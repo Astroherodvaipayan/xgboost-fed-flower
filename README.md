@@ -10,7 +10,6 @@ unzip the file from into a path called : **pyenv-win-master** </br>
 **step 2:** Create a new folder .pyenv in your user folder with the name .pyenv. You can do this using the Explorer or the following PowerShell commands below
 | Command | Description |
 | --- | --- |
-
 |mkdir $HOME/.pyenv | this is command to make local path for .pyenv in the users |
 
 
