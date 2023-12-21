@@ -1,6 +1,6 @@
 # xgboost-fed-flower
 
-</h2>This is a step by step tutorial for running xgboost with flower federated framework</h2>
+## This is a step by step tutorial for running xgboost with flower federated framework
 
 first step is create a virtualenv using pyenv for running the framework, this to let you have a stable, reproducible, and portable environment. You are in control of which packages versions are installed and when they are upgraded.
 
