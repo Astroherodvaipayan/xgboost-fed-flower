@@ -15,7 +15,7 @@ unzip the file from into a path called : **pyenv-win-master** </br>
 
 **step 3:** Extract the ZIP-archive and copy the pyenv-win folder and the .version file from the pyenv-win-master folder into the newly created .pyenv folder in your user folder.
 \
-| these are commands to set the environment variables PYENV and PYENV_HOME that point to the installation folder|
+Run these commands to set the environment variables PYENV and PYENV_HOME that point to the installation folder.
 ```console
 [System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
 ```
