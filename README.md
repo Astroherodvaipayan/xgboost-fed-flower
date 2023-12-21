@@ -10,14 +10,16 @@ unzip the file from into a path called : **pyenv-win-master** </br>
 **step 2:** Create a new folder .pyenv in your user folder with the name .pyenv. You can do this using the Explorer or the following PowerShell commands below
 | Command | Description |
 | --- | --- |
-```console
+
 |mkdir $HOME/.pyenv | this is command to make local path for .pyenv in the users |
-```
+
 
 **step 3:** Extract the ZIP-archive and copy the pyenv-win folder and the .version file from the pyenv-win-master folder into the newly created .pyenv folder in your user folder.
 \
-
-| Command | Description |
-| --- | --- |
-|[System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")|| these are commands to set the environment variables PYENV and PYENV_HOME that point to the installation folder|
-|[System.Environment]::SetEnvironmentVariable('PYENV_HOME',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")||
+| these are commands to set the environment variables PYENV and PYENV_HOME that point to the installation folder|
+```console
+[System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
+```
+```console
+[System.Environment]::SetEnvironmentVariable('PYENV_HOME',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
+```
