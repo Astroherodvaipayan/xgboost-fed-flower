@@ -8,10 +8,10 @@ first step is create a virtualenv using pyenv for running the framework, this to
 unzip the file from into a path called : **pyenv-win-master** </br>
 </br>
 **step 2:** Create a new folder .pyenv in your user folder with the name .pyenv. You can do this using the Explorer or the following PowerShell commands below
+
 | Command | Description |
 | --- | --- |
-|mkdir $HOME/.pyenv | this is command to make local path for .pyenv in the users |
-
+|mkdir $HOME/.pyenv|this is command to make local path for .pyenv in the users|
 
 **step 3:** Extract the ZIP-archive and copy the pyenv-win folder and the .version file from the pyenv-win-master folder into the newly created .pyenv folder in your user folder.
 \
