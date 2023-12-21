@@ -13,6 +13,10 @@ unzip the file from into a path called : **pyenv-win-master** </br>
 |mkdir $HOME/.pyenv | this is command to make local path for .pyenv in the users |
 
 
+```console
+mkdir $HOME/.pyenv
+```
+
 **step 3:** Extract the ZIP-archive and copy the pyenv-win folder and the .version file from the pyenv-win-master folder into the newly created .pyenv folder in your user folder.
 \
 
