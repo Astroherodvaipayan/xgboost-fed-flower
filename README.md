@@ -6,6 +6,7 @@ first step is create a virtualenv using pyenv for running the framework, this to
 
 **step 1:** install pyenv from this link : **https://github.com/pyenv-win/pyenv-win**
 unzip the file from into a path called : **pyenv-win-master** </br>
+</br>
 **step 2:** Create a new folder .pyenv in your user folder with the name .pyenv. You can do this using the Explorer or the following PowerShell commands below
 | Command | Description |
 | --- | --- |
