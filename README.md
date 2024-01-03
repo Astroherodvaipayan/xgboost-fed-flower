@@ -35,3 +35,6 @@ first step is create a virtualenv using pyenv for running the framework, this to
 ```console
  Set-ExecutionPolicy unrestricted
 ```
+```console
+Unblock-File $HOME/.pyenv/pyenv-win/bin/pyenv.ps1
+```
