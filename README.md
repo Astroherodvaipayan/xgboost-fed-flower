@@ -31,3 +31,7 @@ first step is create a virtualenv using pyenv for running the framework, this to
 ```
 **6.** Close the current PowerShell.If you haven’t enabled script execution yet, start a new PowerShell with admin privileges by right-clicking on the PowerShell icon in the start menu and choose Run as administrator.
 ![image](https://github.com/Astroherodvaipayan/xgboost-fed-flower/assets/105009701/e80145e9-3121-4aa5-bec4-165a6dd6f9ed)
+
+```console
+ Set-ExecutionPolicy unrestricted
+```
